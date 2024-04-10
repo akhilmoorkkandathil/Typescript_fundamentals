@@ -1166,6 +1166,7 @@ invokeperson({firstname:"Sachin",lastname:"Tendulkar"});
 
 
 Duck-typing
+
 In duck-typing, two objects are considered to be of the same type if both share the same set of properties. 
 Duck-typing verifies the presence of certain properties in the objects, rather than their actual type, to check their suitability. 
 The concept is generally explained by the following phrase −
@@ -1176,6 +1177,7 @@ The TypeScript compiler implements the duck-typing system that allows object cre
 The following example shows how we can pass objects that don’t explicitly implement an interface but contain all of the required members to a function.
 
 Example
+
 interface IPoint { 
    x:number 
    y:number 
